@@ -1,0 +1,25 @@
+{
+  "name": "Donald Trump Bot",
+  "version": "1.0.0",
+  "description": "Group me bot that spits out donald trump quotes.",
+  "author": "Michael Rojas <mikerojaswa@gmail.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js --dev"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "director": "1.2.8",
+    "dotenv": "2.0.0",
+    "winston": "2.2.0",
+    "request": "2.87.0"
+  },
+  "devDependencies": {
+    "localtunnel": "1.8.1",
+    "promptly": "2.1.0",
+    "request": "2.87.0"
+  }
+}
